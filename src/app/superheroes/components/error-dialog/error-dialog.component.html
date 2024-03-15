@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>An error has occurred!</h1>
+<div mat-dialog-content>
+  <p>Something happened: {{ data | json }}</p>
+  <p>Please, try again.</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-flat-button color="warn" (click)="onConfirm()" cdkFocusInitial>Close window</button>
+</div>

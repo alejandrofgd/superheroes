@@ -32,7 +32,7 @@ export class SuperheroPageComponent implements OnInit {
         if(!superhero) return this.router.navigate(['/superheroes/list'])
 
         this.superhero = superhero;
-        return
+        return;
       })
   }
 

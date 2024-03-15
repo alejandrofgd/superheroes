@@ -1,32 +1,37 @@
 <h1>
-  {{ currentSuperhero.id ? 'Edit Superhero' : 'Add Superhero'}}
-  <small *ngIf="currentSuperhero.id">{{ currentSuperhero.superhero }}</small>
+  {{ currentSuperhero.id ? 'Editing: ' : 'Add Superhero'}}
+  <small *ngIf="currentSuperhero.id">{{ currentSuperhero.superhero | uppercase }}</small>
 </h1>
 
 <mat-divider class="mb-2"></mat-divider>
 
-<div class="grid">
-  <div class="col-12 sm:col-6">
+<div class="container">
+<div class="row">
+
+  <div class="col-12 col-sm-6">
     <mat-card>
       <mat-card-content>
         <form
-          class="grid"
+          class="container"
           [formGroup]="superheroForm">
-          <mat-form-field class="col-12 sm:col-6">
-            <mat-label>Superheroe</mat-label>
+          <div class="row">
+
+          <mat-form-field class="col-12 col-sm-6">
+            <mat-label>Superheroe name</mat-label>
             <input
               matInput
               type="text"
               required
-              formControlName="superhero">
+              formControlName="superhero"
+              class="text-uppercase">
           </mat-form-field>
-          <mat-form-field class="col-12 sm:col-6">
+          <mat-form-field class="col-12 col-sm-6">
             <mat-label>Alter ego</mat-label>
             <input
               matInput
               type="text"
               required
-              formControlName="alterEgo">
+              formControlName="realName">
           </mat-form-field>
           <mat-form-field class="col-12">
             <mat-label>First Appearence</mat-label>
@@ -36,7 +41,7 @@
               required
               formControlName="firstAppearance">
           </mat-form-field>
-          <mat-form-field class="col-12 sm:col-6">
+          <mat-form-field class="col-12 col-sm-6">
             <mat-label>Aliases</mat-label>
             <input
               matInput
@@ -44,7 +49,7 @@
               required
               formControlName="aliases">
           </mat-form-field>
-          <mat-form-field class="col-12 sm:col-6">
+          <mat-form-field class="col-12 col-sm-6">
             <mat-label>Publisher</mat-label>
             <input
               matInput
@@ -59,17 +64,18 @@
               type="text"
               formControlName="image">
           </mat-form-field>
+        </div>
         </form>
-        <div class="flex justify-content-between">
+        <div class="d-flex justify-content-between">
           <button
           *ngIf="currentSuperhero.id"
           mat-flat-button
-          color="warn">
+          color="warn"
+          (click)="onDeleteHero()">
           Delete
         </button>
         <span></span>
         <button
-
           mat-flat-button
           color="primary"
           (click)="onSubmit()">
@@ -82,13 +88,14 @@
     </mat-card>
   </div>
 
-  <div class="col-12 sm:col-6">
+  <div class="col-12 col-sm-6">
     <mat-card>
       <img
         [src]="currentSuperhero | superheroImage"
         alt="superhero image"
         mat-card-image>
     </mat-card>
+  </div>
   </div>
 </div>
 

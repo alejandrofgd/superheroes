@@ -21,19 +21,20 @@ export class ListPageComponent implements OnInit {
   constructor(private superheroesService: SuperheroesService) {}
 
   ngOnInit(): void {
-
+    if (this.superheroesService.getSuperheroes()) {
       this.data = this.superheroesService.getSuperheroes().pipe(
-        // delay is ONLY FOR SPINNER DEMONSTRATION
-        delay(1000),
+        // DELAY ONLY FOR SPINNER DEMONSTRATION
+        // delay(1000),
         tap(data => {
           this.allSuperheroes = data;
-          this.superheroes = data
+          this.superheroes = data;
         }),
         catchError(error => {
           console.error('Error getting superheroes data:', error);
           return of([]);
         })
-      )
+      );
+    }
   }
 
   filterSuperhero( term: string) {

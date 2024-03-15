@@ -28,7 +28,6 @@ export class SuperheroesService {
   }
 
   addSuperhero(superhero: Superhero): Observable<Superhero> {
-    console.log(superhero);
 
     return this.http.post<Superhero>(`${this.baseUrl}/heroes`, superhero);
   }
@@ -39,11 +38,11 @@ export class SuperheroesService {
     return this.http.patch<Superhero>(`${this.baseUrl}/heroes/${superhero.id}`, superhero);
   }
 
-  deleteSuperhero(id: string): Observable<boolean> {
+  deleteSuperheroById(id: string): Observable<boolean> {
     return this.http.delete(`${this.baseUrl}/heroes/${id}`)
       .pipe(
-        catchError( err => of(false)),
-        map(resp => true)
+        map(resp => true),
+        catchError( err => of(false))
       )
   }
 

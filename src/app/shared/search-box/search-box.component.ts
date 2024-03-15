@@ -28,14 +28,12 @@ export class SearchBoxComponent implements OnInit, OnDestroy {
       debounceTime(300)
     )
     .subscribe( value => {
-      console.log('debouncer value', value);
       this.onDebounce.emit(value);
     })
   }
 
   ngOnDestroy(): void {
     this.debouncerSubscription?.unsubscribe();
-    console.log('debouncer destruido');
   }
 
   emitValue(value: string):void {

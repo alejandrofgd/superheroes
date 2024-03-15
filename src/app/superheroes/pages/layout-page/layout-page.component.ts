@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class LayoutPageComponent {
 
-  public sidebarItems = [
+  public toolBarMenuItems = [
     { label: 'Superheroes List', icon: 'label', url: './list'},
     { label: 'New Superhero', icon: 'add', url: './new-superhero'},
   ]

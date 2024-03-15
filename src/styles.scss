@@ -1,8 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/theming';
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Marvel, sans-serif',
+);
+
+@include angular-material-typography($custom-typography);
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Marvel", sans-serif; }
 
+.mat-typography h1 {
+  font-size: 40px;
+}
+mat-card-title.mat-mdc-card-title {
+  font-size: 30px;
+}
+mat-card-subtitle.mat-mdc-card-subtitle {
+  font-size: 18px;
+}
+mat-label, input.mat-mdc-input-element, .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input {
+  font-size: 20px;
+}
+mat-card-content.mat-mdc-card-content, mat-card-content.mat-mdc-card-content h4, .mdc-button__label {
+  font-size: 18px;
+}
 .spacer {
   flex: 1 1 auto;
+}
+.superhero-info mat-list-item .mdc-list-item__primary-text {
+  font-size: 20px!important;
 }

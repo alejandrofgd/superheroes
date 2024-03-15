@@ -7,21 +7,21 @@
 </ng-template>
 
 
-<div *ngIf="superhero; else divLoading" class="grid p-2">
-
-    <mat-card class="col-12 sm:col-6">
+<div *ngIf="superhero; else divLoading" class="container p-2">
+  <div class="row">
+    <mat-card class="col-12 col-sm-6">
 
       <mat-card-header>
 
-        <mat-card-title>{{ superhero.superhero }}</mat-card-title>
-        <mat-card-subtitle>{{ superhero.alterEgo }}</mat-card-subtitle>
+        <mat-card-title>{{ superhero.superhero | uppercase }}</mat-card-title>
+        <mat-card-subtitle>{{ superhero.realName }}</mat-card-subtitle>
 
       </mat-card-header>
 
-      <img [src]="superhero | superheroImage" [alt]="superhero.superhero" mat-card-image>
+      <img [src]="superhero | superheroImage" [alt]="superhero.superhero" mat-card-image class="mt-2">
     </mat-card>
 
-    <mat-card class="col-12 sm:col-6">
+    <mat-card class="col-12 col-sm-6">
 
       <mat-card-header>
         <mat-card-title>Information</mat-card-title>
@@ -30,22 +30,25 @@
       </mat-card-header>
 
       <mat-card-content>
-        <mat-list>
-          <mat-list-item>{{superhero.firstAppearance}}</mat-list-item>
-          <mat-list-item>{{superhero.aliases}}</mat-list-item>
-          <mat-list-item>{{superhero.publisher}}</mat-list-item>
-          <mat-list-item>{{superhero.alterEgos}}</mat-list-item>
+        <mat-list class="superhero-info mb-4">
+          <mat-list-item class="mt-4"><strong>First Appearance</strong><br>{{superhero.firstAppearance}}</mat-list-item>
+          <mat-list-item class="mt-4"><strong>Aliases</strong><br>{{superhero.aliases}}</mat-list-item>
+          <mat-list-item class="mt-4"><strong>Publisher</strong><br>{{superhero.publisher}}</mat-list-item>
+          <mat-list-item class="mt-4"><strong>Alter Egos</strong><br>{{superhero.alterEgos}}</mat-list-item>
         </mat-list>
 
         <button
-          mat-button
-          color="warn"
+          mat-flat-button
+          color="primary"
           (click)="goBack()">
           Back
         </button>
 
       </mat-card-content>
     </mat-card>
+  </div>
+
+
 
 </div>
 

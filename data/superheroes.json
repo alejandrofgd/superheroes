@@ -3,18 +3,17 @@
     {
       "superhero": "Captain America",
       "id": "149-captain-america",
-      "alterEgo": "Steve Rogers",
+      "realName": "Steve Rogers",
       "alterEgos": "No alter egos found.",
       "aliases": "Nomad,The Captain",
       "placeOfBirth": "Manhattan,New York City,New York",
       "firstAppearance": "Captain America Comics #1 (March 1941)",
-      "publisher": "Marvel Comics",
-      "image": null
+      "publisher": "Marvel Comics"
     },
     {
       "superhero": "Batman",
       "id": "70-batman",
-      "alterEgo": "Bruce Wayne",
+      "realName": "Bruce Wayne",
       "alterEgos": "No alter egos found.",
       "aliases": "Inside,Matches Malone",
       "placeOfBirth": "Crest Hill,Bristol Township; Gotham County",
@@ -24,7 +23,7 @@
     {
       "superhero": "Iron Man",
       "id": "346-iron-man",
-      "alterEgo": "Tony Stark",
+      "realName": "Tony Stark",
       "alterEgos": "No alter egos found.",
       "aliases": "Iron Knight,Hogan Potts,Spare Parts Man,Cobalt Man II,Crimson Dynamo,Ironman",
       "placeOfBirth": "Long Island,New York",
@@ -34,7 +33,7 @@
     {
       "superhero": "Wolverine",
       "id": "717-wolverine",
-      "alterEgo": "Logan",
+      "realName": "Logan",
       "alterEgos": "No alter egos found.",
       "aliases": "Weapon X,Weapon Ten,Death,Mutate 9601,Jim Logan,Emilio Garra,Weapon Chi,Experiment X,Agent Ten,Peter Richards,Mai kethLogan,Mr. Patch",
       "placeOfBirth": "Alberta,Canada",
@@ -44,7 +43,7 @@
     {
       "superhero": "Superman",
       "id": "644-superman",
-      "alterEgo": "Clark Kent",
+      "realName": "Clark Kent",
       "alterEgos": "Superman Prime One-Million",
       "aliases": "Clark Joseph Kent,The Man of Steel,the Man of Tomorrow,the Last Son of Krypton,Big Blue,the Metropolis Marvel,the Action Ace",
       "placeOfBirth": "Krypton",
@@ -54,7 +53,7 @@
     {
       "superhero": "Thor",
       "id": "659-thor",
-      "alterEgo": "Thor Odinson",
+      "realName": "Thor Odinson",
       "alterEgos": "Rune King Thor",
       "aliases": "Donald Blake,Sigurd Jarlson,Jake Olsen,Donar the Mighty",
       "placeOfBirth": "Asgard",
@@ -64,7 +63,7 @@
     {
       "superhero": "Wonder Woman",
       "id": "720-wonder-woman",
-      "alterEgo": "Diana Prince",
+      "realName": "Diana Prince",
       "alterEgos": "No alter egos found.",
       "aliases": "Princess Diana,Princess of the Amazo,Goddess of Tru,Won,Wonder Gi,The Amazon Princess",
       "placeOfBirth": "Themyscira",
@@ -74,7 +73,7 @@
     {
       "superhero": "Black Panther",
       "id": "106-black-panther",
-      "alterEgo": "T'Challa",
+      "realName": "T'Challa",
       "alterEgos": "No alter egos found.",
       "aliases": "Mr. Okonkwo,The Man Without Fe,Luke Charl,Black Leopa,the Clie,Coal Tig,has impersonated Daredevil and others on occasion",
       "placeOfBirth": "Wakanda,Africa",
@@ -92,7 +91,7 @@
         "power": 100,
         "combat": 100
       },
-      "alterEgo": "Wade Wilson",
+      "realName": "Wade Wilson",
       "alterEgos": "Evil Deadpool,Venompool",
       "aliases": "Wade Wilson,Ja,Chiyonosake (the Wolf of the Rice Wine),Rhod,Corp,Lop,Hobgobl,Thom Cr,Peter Parker",
       "placeOfBirth": "Canada",
@@ -102,7 +101,7 @@
     {
       "superhero": "Daredevil",
       "id": "201-daredevil",
-      "alterEgo": "Matt Murdock",
+      "realName": "Matt Murdock",
       "alterEgos": "No alter egos found.",
       "aliases": "Matt,Jack Batli,Kingpin of Crim,Laurent LeVasseu,Michael \"Mike\" Murdoc,Scarlet Swashbuckle,superheroless On,Kingpin of Hell's Kitche,The Man Without Fea,The Guardian Devi,D,Re,Hornhea,Cooper Peyto,Captain Universe",
       "placeOfBirth": "New York City,New York",
@@ -112,7 +111,7 @@
     {
       "superhero": "Flash",
       "id": "263-flash",
-      "alterEgo": "Jay Garrick",
+      "realName": "Jay Garrick",
       "alterEgos": "No alter egos found.",
       "aliases": "Jay Garrick,Siegfreid the Speedster",
       "placeOfBirth": "Hibbardsville,Kansas",
@@ -122,7 +121,7 @@
     {
       "superhero": "Human Torch",
       "id": "333-human-torch",
-      "alterEgo": "Johnny Storm",
+      "realName": "Johnny Storm",
       "alterEgos": "No alter egos found.",
       "aliases": "Matchstick Johnny,Doug Brown",
       "placeOfBirth": "Glenville,Long Island,New York",
@@ -132,7 +131,7 @@
     {
       "superhero": "Thing",
       "id": "658-thing",
-      "alterEgo": "Ben Grimm",
+      "realName": "Ben Grimm",
       "alterEgos": "No alter egos found.",
       "aliases": "Blackbeard the Pirate,Grim Ben,Dr. Josiah Verpoorteen",
       "placeOfBirth": "New York City,New York",
@@ -142,7 +141,7 @@
     {
       "superhero": "Green Arrow",
       "id": "298-green-arrow",
-      "alterEgo": "Oliver Queen",
+      "realName": "Oliver Queen",
       "alterEgos": "No alter egos found.",
       "aliases": "The Emerald Archer,Battling Bowman",
       "placeOfBirth": "-",
@@ -152,7 +151,7 @@
     {
       "superhero": "Silver Surfer",
       "id": "598-silver-surfer",
-      "alterEgo": "Norrin Radd",
+      "realName": "Norrin Radd",
       "alterEgos": "No alter egos found.",
       "aliases": "-",
       "placeOfBirth": "Zenn-La",
@@ -162,7 +161,7 @@
     {
       "superhero": "Punisher",
       "id": "530-punisher",
-      "alterEgo": "Frank Castle",
+      "realName": "Frank Castle",
       "alterEgos": "No alter egos found.",
       "aliases": "Big Nothing,Major Bateman,Ted Bishop,Cliff Callador,Castigo,Chaloner,Fred D'Amato,Eastman,Charles Fort,Frank Loomis,McRook,Melchior,Joe Rainey,Frank Rook,Richard Rook,Tony Knowlen Ross,Francis Stronghold,Johnny Tower,Dmitri Velikoff,Fra",
       "placeOfBirth": "Queens,New York",
@@ -172,7 +171,7 @@
     {
       "superhero": "Black Widow",
       "id": "107-black-widow",
-      "alterEgo": "Natasha Romanoff",
+      "realName": "Natasha Romanoff",
       "alterEgos": "No alter egos found.",
       "aliases": "Yelena Belova,Natasha Romanoff,Natasha,Tasha,Madame Natasha,Nancy Rushman,Laura Matthers,Nadine Roman,\"Oktober\",Black Pearl,Ebon Flame",
       "placeOfBirth": "-",
@@ -182,7 +181,7 @@
     {
       "superhero": "Captain Marvel",
       "id": "156-captain-marvel",
-      "alterEgo": "Billy Batson",
+      "realName": "Billy Batson",
       "alterEgos": "No alter egos found.",
       "aliases": "The World's Mightiest Mortal,The Big Red Cheese,Captain Thunder,Shazam",
       "placeOfBirth": "Fawcett City,United States",
@@ -192,7 +191,7 @@
     {
       "superhero": "Martian Manhunter",
       "id": "432-martian-manhunter",
-      "alterEgo": "J'onn J'onzz",
+      "realName": "J'onn J'onzz",
       "alterEgos": "No alter egos found.",
       "aliases": "John Jones; J'Onn J'Onzz (alternate spelling); Big Green Buddy; J.J.; Jolly Green Giant; Light to the Light; Manhunter; Manhunter from Mars; Son of Mars; Bronze Wraith,Bloodwynd,many others",
       "placeOfBirth": "-",
@@ -202,7 +201,7 @@
     {
       "superhero": "Supergirl",
       "id": "643-supergirl",
-      "alterEgo": "Kara Zor-El",
+      "realName": "Kara Zor-El",
       "alterEgos": "No alter egos found.",
       "aliases": "Linda Lang,Kara-El,Kara Kent,Flamebird,Trinity Child,Teen of Tomorrow,The Girl of Steel,The Maid of Might,The Princess of Power,Mighty Maid,Claire Connors,Bluebird",
       "placeOfBirth": "Argo City,Krypton",
@@ -212,7 +211,7 @@
     {
       "superhero": "Beast",
       "id": "75-beast",
-      "alterEgo": "Henry Philip McCoy",
+      "realName": "Henry Philip McCoy",
       "alterEgos": "No alter egos found.",
       "aliases": "Dr. McCo,Hank,Kreatur,Mutate #66,Magilla Gorill,Golden Armed Boy",
       "placeOfBirth": "Dunfee,Illinois",
@@ -222,7 +221,7 @@
     {
       "superhero": "Loki",
       "id": "414-loki",
-      "alterEgo": "Loki Laufeyson",
+      "realName": "Loki Laufeyson",
       "alterEgos": "No alter egos found.",
       "aliases": "God of Mischief,Gem-Keeper,Walter Lawson,Lester,Loren Olsen,Tyfon,Father Williams,Willie,Tso Zhung; has also impersonated hundreds of others.",
       "placeOfBirth": "Jotunheim,Asgard",
@@ -232,7 +231,7 @@
     {
       "superhero": "Poison Ivy",
       "id": "522-poison-ivy",
-      "alterEgo": "Pamela Isley",
+      "realName": "Pamela Isley",
       "alterEgos": "No alter egos found.",
       "aliases": "-",
       "placeOfBirth": "Seattle,Washington",
@@ -242,7 +241,7 @@
     {
       "superhero": "Robin",
       "id": "561-robin",
-      "alterEgo": "Dick Grayson",
+      "realName": "Dick Grayson",
       "alterEgos": "Batman II,Nightwing",
       "aliases": "Renegade,The Target,Freddie Dinardo",
       "placeOfBirth": "-",
@@ -252,7 +251,7 @@
     {
       "superhero": "Ronin",
       "id": "568-ronin",
-      "alterEgo": "Clint Barton",
+      "realName": "Clint Barton",
       "alterEgos": "Goliath,Hawkeye",
       "aliases": "Formerly Hawkeye,the Marksma,'Br'er Hawkeye,Superhuman Cellblock Prisoner 33455,Longbo,Goliat,Father Tim,Loui,Robin Hoo,the Hawkeye Ki,Golden Arche,'Purple Man'; impersonated Constrictor & Dreadknight",
       "placeOfBirth": "Waverly,Iowa",
@@ -262,7 +261,7 @@
     {
       "superhero": "Spider-Man",
       "id": "620-spider-man",
-      "alterEgo": "Peter Parker",
+      "realName": "Peter Parker",
       "alterEgos": "No alter egos found.",
       "aliases": "Spiderman,Bag-Man,Black Marvel,Captain Universe,Dusk,Green Hood,Hornet,Mad Dog 336,Peter Palmer,Prodigy,Ricochet,Scarlet Spider,Spider-Boy,Spider-Hulk,Spider-Morphosis",
       "placeOfBirth": "New York,New York",
@@ -272,7 +271,7 @@
     {
       "superhero": "Spider-Woman",
       "id": "623-spider-woman",
-      "alterEgo": "Jessica Drew",
+      "realName": "Jessica Drew",
       "alterEgos": "No alter egos found.",
       "aliases": "Arachne,Ariadne Hyde,Dark Angel,Dark Angel of San Francisco",
       "placeOfBirth": "London,England",
@@ -282,7 +281,7 @@
     {
       "superhero": "Storm",
       "id": "638-storm",
-      "alterEgo": "Ororo Munroe",
+      "realName": "Ororo Munroe",
       "alterEgos": "No alter egos found.",
       "aliases": "Ororo Iqadi T'Challa,Queen Oror,Ororo Komo Wakandas,White Quee,Weather Witc,Windride,Goddes,Mistress of the Element,Princess of N'Dar,High Priestess Windride,Goddes,Mistress of the Element,Princess of N'Dar,High Priestess",
       "placeOfBirth": "New York,New York",
@@ -292,7 +291,7 @@
     {
       "superhero": "Steppenwolf",
       "id": "637-steppenwolf",
-      "alterEgo": "",
+      "realName": "",
       "alterEgos": "No alter egos found.",
       "aliases": "Steppenwulf",
       "placeOfBirth": "-",
@@ -302,12 +301,21 @@
     {
       "superhero": "Stardust",
       "id": "631-stardust",
-      "alterEgo": "",
+      "realName": "",
       "alterEgos": "No alter egos found.",
       "aliases": "Entity Lambda-Zero",
       "placeOfBirth": "-",
       "firstAppearance": "-",
       "publisher": "Marvel Comics"
+    },
+    {
+      "id": "homer",
+      "superhero": "Homer Simpsons",
+      "publisher": "Matt Groening",
+      "realName": "Señor de Incógnito",
+      "firstAppearance": "1992",
+      "aliases": "Max Power",
+      "image": "https://www.artmajeur.com/medias/hd/j/e/jeremy-jacquart1/artwork/11752367_homersimson.jpg"
     }
   ]
 }
