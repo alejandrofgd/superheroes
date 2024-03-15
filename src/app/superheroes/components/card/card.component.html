@@ -1,0 +1,54 @@
+<mat-card>
+
+  <mat-card-header>
+    <mat-card-title>{{ superhero.superhero | titlecase }}</mat-card-title>
+    <mat-card-subtitle *ngIf="superhero.superhero; else noName">{{ superhero.alterEgo }} </mat-card-subtitle>
+    <ng-template #noName><br></ng-template>
+
+  </mat-card-header>
+
+  <img mat-card-image [src]="superhero | superheroImage" [alt]="superhero.alterEgo">
+
+  <mat-card-content class="mt-2">
+    <h4>{{ superhero.publisher }}</h4>
+    <p>
+      <strong>First Appearence</strong> {{ superhero.firstAppearance }}
+      <br>
+      <mat-chip-listbox>
+        <div *ngFor="let name of superhero.aliases.split(','); let i = index">
+          <div *ngIf="i <= 2">
+            <mat-chip>
+              {{ name }}
+            </mat-chip>
+          </div>
+        </div>
+
+      </mat-chip-listbox>
+    </p>
+  </mat-card-content>
+
+  <mat-divider></mat-divider>
+
+  <mat-card-actions>
+
+    <button
+      mat-button
+      mat-raised
+      color="primary"
+      [routerLink]="['/superheroes/edit', superhero.id]" >
+      <mat-icon>edit</mat-icon>
+      Edit
+    </button>
+
+    <button
+      mat-button
+      mat-raised
+      color="primary"
+      [routerLink]="['/superheroes', superhero.id]" >
+      <mat-icon>more_horiz</mat-icon>
+      More
+    </button>
+
+  </mat-card-actions>
+
+</mat-card>

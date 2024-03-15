@@ -1,0 +1,31 @@
+
+
+<div *ngIf="data | async as data; else spinner">
+  <h1>Superheroes List</h1>
+
+  <h2>Filter by name</h2>
+  <shared-search-box
+      (onDebounce)="filterSuperhero($event)"
+      placeholder="Search Superhero..."
+      [initialValue]="initialValue"
+      ></shared-search-box>
+  <mat-divider></mat-divider>
+
+  <div class="grid mb-8">
+    <div
+      *ngFor="let superhero of superheroes"
+      class="col-12 sm:col-4 md:col-3 xl:col-2">
+      <superheroes-superhero-card [superhero]="superhero"></superheroes-superhero-card>
+    </div>
+  </div>
+</div>
+
+
+<ng-template #spinner>
+  <h1 class="text-center p-2">Loading Superheroes</h1>
+  <mat-grid-list cols="1">
+    <mat-grid-tile>
+      <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+  </mat-grid-list>
+</ng-template>
