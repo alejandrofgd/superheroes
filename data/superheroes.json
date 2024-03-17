@@ -307,15 +307,6 @@
       "placeOfBirth": "-",
       "firstAppearance": "-",
       "publisher": "Marvel Comics"
-    },
-    {
-      "id": "homer",
-      "superhero": "Homer Simpsons",
-      "publisher": "Matt Groening",
-      "realName": "Señor de Incógnito",
-      "firstAppearance": "1992",
-      "aliases": "Max Power",
-      "image": "https://www.artmajeur.com/medias/hd/j/e/jeremy-jacquart1/artwork/11752367_homersimson.jpg"
     }
   ]
 }
